@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Подарок 🎁</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #1f1f1f, #2f2f2f);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: white;
+      padding: 20px;
+    }
+
+    .card {
+      width: 100%;
+      max-width: 420px;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(10px);
+      border-radius: 28px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 10px 35px rgba(0,0,0,0.35);
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .title {
+      font-size: 2rem;
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: 28px;
+    }
+
+    .gift-text {
+      font-size: 1.15rem;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      opacity: 0.95;
+    }
+
+    .gift-image {
+      width: 100%;
+      border-radius: 18px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+
+    .gift-image img {
+      width: 100%;
+      display: block;
+    }
+
+    .emoji {
+      font-size: 1.4rem;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 420px) {
+      .title {
+        font-size: 1.7rem;
+      }
+
+      .gift-text {
+        font-size: 1rem;
+      }
+
+      .card {
+        padding: 26px 18px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+    <div class="emoji">🎁</div>
+
+    <div class="title">
+      юра,<br>
+      соси соси бля
+    </div>
+
+    <div class="gift-text">
+      подарок ищи на парковке 👀
+    </div>
+
+    <div class="gift-image">
+      <img src="assets/img0.jpg" alt="Адрес подарка">
+    </div>
+  </div>
+</body>
+</html>
